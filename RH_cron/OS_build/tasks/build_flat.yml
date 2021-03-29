@@ -1,0 +1,7 @@
+---
+- name: Write file. ({{ parameter.path }})
+  template:
+    src: flat_template
+    dest: "{{ parameter.path }}"
+
+

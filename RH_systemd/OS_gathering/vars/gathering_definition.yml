@@ -1,0 +1,4 @@
+---
+file:
+  - /etc/systemd/system.conf
+  - /etc/systemd/user.conf

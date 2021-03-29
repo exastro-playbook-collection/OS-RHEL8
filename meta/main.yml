@@ -1,0 +1,15 @@
+galaxy_info:
+  role_name: OS-RHEL8
+  description: Configure OS and Gather settings for OS.
+  author: NEC Corporation
+  company: NEC Corporation
+  license: Apache License 2.0
+  min_ansible_version: 2.9
+  platforms:
+    - name: EL
+      versions:
+        - 8
+  galaxy_tags: []
+  categories: []
+
+dependencies: []

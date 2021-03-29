@@ -1,0 +1,28 @@
+---
+- name: Execute module. (service start {{ loop_item.name }})
+  systemd:
+    name: "{{ loop_item.name }}"
+    enabled: yes
+  when:
+    - loop_item.status == 'enabled'
+
+- name: Execute module. (service stop {{ loop_item.name }})
+  systemd:
+    name: "{{ loop_item.name }}"
+    enabled: no
+  when:
+    - loop_item.status == 'disabled'
+
+- name: Execute module. (service masked {{ loop_item.name }})
+  systemd:
+    name: "{{ loop_item.name }}"
+    masked: yes
+  when:
+    - loop_item.status == 'masked'
+
+- name: Execute module. (service masked off {{ loop_item.name }})
+  systemd:
+    name: "{{ loop_item.name }}"
+    masked: no
+  when:
+    - loop_item.status == 'masked_off'

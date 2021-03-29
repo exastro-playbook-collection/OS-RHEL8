@@ -1,0 +1,5 @@
+---
+file:
+  - /etc/xinetd.conf
+  - /etc/xinetd.d/
+  

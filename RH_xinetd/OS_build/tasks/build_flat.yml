@@ -1,0 +1,11 @@
+---
+- name: Write file. ({{ parameter.path }})
+  template:
+    src: flat_template
+    dest: "{{ parameter.path }}"
+  register: template_result
+
+- name: Restart setting.
+  set_fact:
+    VAR_xinetd_reboot: true
+  when: template_result.changed

@@ -1,0 +1,5 @@
+---
+- name: Execute role. (OS-RHEL8/{{ outer_item }}/OS_gathering)
+  import_role:
+    name: OS-RHEL8/{{ outer_item }}/OS_gathering
+

@@ -1,0 +1,7 @@
+---
+- include_tasks: modify_property_section.yml
+  with_items:
+    "{{ parameter.value }}"
+  loop_control:
+    loop_var: section_value
+

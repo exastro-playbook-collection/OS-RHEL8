@@ -1,0 +1,4 @@
+---
+file:
+  - /etc/sudo.conf
+  - /etc/sudoers

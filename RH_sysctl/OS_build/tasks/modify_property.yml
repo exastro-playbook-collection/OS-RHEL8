@@ -1,0 +1,8 @@
+---
+- name: Write file.({{ parameter.path }})
+  lineinfile:
+    path: "{{ parameter.path }}"
+    regexp: '^\s*{{ item.key }}=.*'
+    line: '{{ item.key }}={{ item.value }}'
+  with_dict:
+    "{{ parameter.properties }}"

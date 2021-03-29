@@ -1,0 +1,12 @@
+---
+- name: Write file. ({{ parameter.path }})
+  template:
+    src: flat_template
+    dest: "{{ parameter.path }}"
+  register: template_result
+
+- name: Restart sshd.
+  systemd:
+    state: restarted
+    name: sshd
+  when: template_result.changed
