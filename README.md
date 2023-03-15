@@ -58,6 +58,7 @@ RHELサーバは、OSのインストール後、以下の設定を実施して�
 | [RH_fstab/OS_gathering](RH_fstab/OS_gathering) | ファイルシステム マウント設定 | 
 | [RH_group/OS_gathering](RH_group/OS_gathering) | グループ設定 | 
 | [RH_grub2/OS_gathering](RH_grub2/OS_gathering) | ブートローダー設定 | 
+| [RH_hostname/OS_gathering](RH_hostname/OS_gathering) | ホスト名設定 | 
 | [RH_hosts/OS_gathering](RH_hosts/OS_gathering) | hosts設定 | 
 | [RH_hosts_allow_deny/OS_gathering](RH_hosts_allow_deny/OS_gathering) | アクセス制限(許可/拒否) | 
 | [RH_init/OS_gathering](RH_init/OS_gathering) | ブートプロセスシステム表示機能設定 | 
@@ -107,6 +108,7 @@ RHELサーバは、OSのインストール後、以下の設定を実施して�
 | [RH_fstab/OS_gathering マニュアル](RH_fstab/OS_gathering/README.md) |
 | [RH_group/OS_gathering マニュアル](RH_group/OS_gathering/README.md) |
 | [RH_grub2/OS_gathering マニュアル](RH_grub2/OS_gathering/README.md) |
+| [RH_hostname/OS_gathering マニュアル](RH_hostname/OS_gathering/README.md) |
 | [RH_hosts/OS_gathering マニュアル](RH_hosts/OS_gathering/README.md) |
 | [RH_hosts_allow_deny/OS_gathering マニュアル](RH_hosts_allow_deny/OS_gathering/README.md) |
 | [RH_init/OS_gathering マニュアル](RH_init/OS_gathering/README.md) |
@@ -165,6 +167,7 @@ RH_ALL/OS_gathering(OS情報一括取得)ロールで情報取得を行うデフ
 | [RH_fstab/OS_build](RH_fstab/OS_build) | ファイルシステム マウント設定 | 
 | [RH_group/OS_build](RH_group/OS_build) | グループ設定 | 
 | [RH_grub2/OS_build](RH_grub2/OS_build) | ブートローダー設定 | 
+| [RH_hostname/OS_build](RH_hostname/OS_build) | ホスト名設定 | 
 | [RH_hosts/OS_build](RH_hosts/OS_build) | hosts設定 | 
 | [RH_hosts_allow_deny/OS_build](RH_hosts_allow_deny/OS_build) | アクセス制限(許可/拒否) | 
 | [RH_init/OS_build](RH_init/OS_build) | ブートプロセスシステム表示機能設定 | 
@@ -214,6 +217,7 @@ RH_ALL/OS_gathering(OS情報一括取得)ロールで情報取得を行うデフ
 | [RH_fstab/OS_build マニュアル](RH_fstab/OS_build/README.md) |
 | [RH_group/OS_build マニュアル](RH_group/OS_build/README.md) |
 | [RH_grub2/OS_build マニュアル](RH_grub2/OS_build/README.md) |
+| [RH_hostname/OS_build マニュアル](RH_hostname/OS_build/README.md) |
 | [RH_hosts/OS_build マニュアル](RH_hosts/OS_build/README.md) |
 | [RH_hosts_allow_deny/OS_build マニュアル](RH_hosts_allow_deny/OS_build/README.md) |
 | [RH_init/OS_build マニュアル](RH_init/OS_build/README.md) |
