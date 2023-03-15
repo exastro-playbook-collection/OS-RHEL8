@@ -1,0 +1,4 @@
+---
+- name: Execute module. (hostnamectl set-hostname {{ parameter }})
+  ansible.builtin.hostname:
+    name: "{{ parameter }}"
