@@ -6,8 +6,8 @@ Ansible Role: OS-RHEL8/RH_hostname/OS_hostname
 # Supports
 - 管理マシン(Ansibleサーバ)
   * Linux系OS（RHEL7）
-  * Ansible バージョン 2.7 以上 (動作確認バージョン 2.7, 2.9)
-  * Python バージョン 3.x  (動作確認バージョン 3.6)
+  * Ansible バージョン 2.9 以上 (動作確認バージョン 2.9, 2.14)
+  * Python バージョン 3.x  (動作確認バージョン 3.9)
 - 管理対象マシン
   * RHEL8
 
@@ -146,7 +146,7 @@ VAR_RH_hostname: myhostname.domain
 
 # Copyright
 ---------
-Copyright (c) 2021 NEC Corporation
+Copyright (c) 2023 NEC Corporation
 
 # Author Information
 ------------------

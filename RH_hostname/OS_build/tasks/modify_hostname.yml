@@ -1,4 +1,5 @@
 ---
 - name: Execute module. (hostnamectl set-hostname {{ parameter }})
-  ansible.builtin.hostname:
+  hostname:
     name: "{{ parameter }}"
+    use: "systemd"
