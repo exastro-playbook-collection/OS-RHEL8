@@ -2,6 +2,7 @@
 VAR_OS_reboot: false
 
 VAR_OS_target_rolename:
+ - RH_hostname
 #- RH_rpm
  - RH_group
  - RH_user

@@ -1,0 +1,6 @@
+---
+- name: Check parameter hostname.
+  fail:
+    msg: "hostname parameter is not defined. Confirm hostname parameter."
+  when:
+    - parameter == "" or parameter == None

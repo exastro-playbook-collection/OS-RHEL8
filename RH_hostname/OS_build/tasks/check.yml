@@ -1,0 +1,4 @@
+---
+- include_tasks: check_parameter.yml
+  vars:
+    parameter:  "{{ VAR_RH_hostname }}"

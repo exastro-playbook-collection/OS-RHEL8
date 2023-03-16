@@ -4,6 +4,7 @@ VAR_OS_extracting_dest_all: "{{ playbook_dir }}/_parameters"
 VAR_OS_python_cmd_all: "python3"
 
 VAR_OS_target_rolename:
+  - RH_hostname
   - RH_rpm
   - RH_group
   - RH_user
